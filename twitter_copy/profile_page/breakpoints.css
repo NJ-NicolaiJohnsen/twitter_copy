@@ -1,0 +1,49 @@
+.left-menu {
+  display: none;
+  width: 68px;
+  background: #000;
+  color: white;
+}
+
+.right-aside {
+  display: none;
+  background-color: mediumspringgreen;
+}
+
+@media only screen and (min-width: 500px) and (min-height: 500px) {
+  .left-menu {
+    display: block;
+  }
+  .page-container {
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .left-menu {
+    width: 88px;
+  }
+}
+
+@media only screen and (min-width: 988px) {
+  .right-aside {
+    width: 290px;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1078px) {
+  .right-aside {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 1266px) {
+  .left-menu {
+    width: 257px;
+  }
+}
+
