@@ -10,6 +10,16 @@
   background-color: mediumspringgreen;
 }
 
+.stats_figure {
+  display: none;
+}
+
+@media (min-width: 425px) {
+  .stats_figure {
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 500px) and (min-height: 500px) {
   .left-menu {
     display: block;
@@ -26,6 +36,7 @@
   .left-menu {
     width: 88px;
   }
+
 }
 
 @media only screen and (min-width: 988px) {
